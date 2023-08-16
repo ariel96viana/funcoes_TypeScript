@@ -6,5 +6,9 @@ function saudacao(nome: string) {
   return `Olá ${nome}`;
 }
 
-console.log(multiplicaNumeros(10, 20));
-console.log(saudacao("Ariel"));
+const numerosMultiplicados: number = multiplicaNumeros(10, 20);
+
+const saudando: string = saudacao("Ariel");
+
+console.log(numerosMultiplicados);
+console.log(saudando);
